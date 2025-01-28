@@ -17,6 +17,9 @@ public class SquareRootWhile {
             }
         }
 
+        double result = Math.sqrt(number);
+        response = "The square root of " + (int) number + " is " + result;
+
         return response;
     }
     public static void main(String args[]) {
